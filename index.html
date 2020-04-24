@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive Link Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/light.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <h1 >Google Drive Direct Download Link Generator</h1>
+        <main>
+            <br>
+            <div id="example"></div>
+            <div class="generator">
+                <input placeholder="Your Google Drive Url" id="input" type="url">
+                <button onclick="gen()">Generate</button>
+            </div>
+
+            
+            <h3 id="result-head">Result:</h3>
+            <div  id="result-container">
+                <input id="result" type="url">
+                <button onclick="copy()">Copy</button>
+            </div>
+            
+        </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
